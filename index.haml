@@ -2,9 +2,31 @@
 %html
   %head
     %title Cool Page
+    // Reset browser defaults
     %link{href: "css/reset.min.css", rel: "stylesheet", type: "text/css"}/
+
+    // Bootstrap CSS
+    %link{href: "//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css", rel: "stylesheet", type: "text/css"}/
+
+    // Personal style
     %link{href: "css/style.css", rel: "stylesheet", type: "text/css"}/
   %body
     %h1 :)
+
+    // jQuery
     %script{src: "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"}
+
+    // Bootstrap Warning: requires jQquery
+    %script{src: "//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"}
+
+    // Underscore.js library
+    %script{src: "http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"}
+
+    // Backbone.js Warning: underscore dependency
+    %script{src: "http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"}
+
+    // Angular.js
+    %script{src: "https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.js"}
+
+    // My Script file
     %script{src: "js/script.js"}
