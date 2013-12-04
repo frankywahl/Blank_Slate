@@ -12,3 +12,5 @@ Thumbs.db
 
 # Vim Generated swap files #
 *.swp
+.sass-cache
+Gemfile.lock
